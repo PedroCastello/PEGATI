@@ -1,0 +1,125 @@
+/* Fonte padrão para todo o corpo do site */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+
+header .logo {
+    flex: 0 0 auto;
+}
+
+header .logo img {
+    width: 100px;
+    height: auto; 
+    margin-left: 30px; 
+}
+
+header .header-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 103px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    margin: 10px 0 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 80px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Seções principais */
+section {
+    padding: 20px;
+    width: 80%;
+}
+
+/* Estilo da seção inicial */
+#home {
+    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilo da seção de serviços */
+#services {
+    background-color: #e2e2e2;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Estilo dos parágrafos */
+p {
+    font-size: 20px;
+}
+
+/* Estilo dos membros da equipe */
+.team-member {
+    display: inline-block;
+    width: 45%;
+    margin: 2.5%;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Fundo cinza claro nos parágrafos dos membros da equipe */
+.team-member p {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
